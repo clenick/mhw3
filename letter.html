@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Letter to Santa</title>
+    <link rel="stylesheet" href="letter.css" />
+    <script src="images.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <a href="mhw2.html">Home</a>
+        <a href = "letter.html">Scrivi la tua letterina</a>
+        <a href="">Conosci i personaggi</a>
+        <a href="">Visita il villaggio</a>
+        <div id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+    <header>
+        <h1>SCRIVI LA TUA LETTERINA</h1>
+        <div class="overlay"></div>
+    </header>
+    <section id="letter_section">
+    <form id="letter_form">
+        <label for="name">Mi chiamo: </label>
+        <input type="text" placeholder="Inserisci il tuo nome e cognome"id="name"></br>
+        <label for="age">Età: </label>
+        <input type="text" placeholder="Inserisci la tua età"id="age"></br>
+        <label for="present">Quest'anno mi piacerebbe ricevere: </label>
+        <input type="text" placeholder="Chiedi il tuo regalo"id="present"></br>
+        <label for="message">Vorrei inoltre dirti: </label></br>
+        <input type="text" placeholder="Scrivi il tuo messaggio per Babbo Natale "id="message"></br> 
+        <div id="text_image">
+            <p id = "change_text">Vuoi aggiungere un' immagine alla letterina?</p>
+            
+        </div> 
+        <input type="button" id="images_button"value="Mostra immagini">
+        <input type='submit' class="submit" value="Invia">   
+    </form>
+    </section>
+    <footer>
+        <p>Christmas village- 325 S. Santa Claus Lane North Pole, AK 99705- santaclaus@gmail.com
+            <br />Clelia Agata Nicotra O46002019</p>
+    </footer>
+</body>
+
+</html>
